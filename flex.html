@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      background: #797DA4;
+    }
+
+    .box {
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #6E0B29;
+      background-color: grey;
+    }
+
+    h2 {
+      color: lightpink;
+      background: black;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      margin-left: 400px;
+      margin-right: 400px;
+    }
+
+    /*.box1 {
+      height: 100px;
+      width: 100px;
+      background-color: #2B5ACB;
+      margin: 8px 5px;
+      border-radius: 10px;
+    }*/
+
+    img{
+        height: 250px;
+        width: 280px;
+        margin: 8px 20px;
+    }
+
+    
+    #b {
+      display: flex;
+    }
+
+    #c {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #d {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #e {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    #f {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    #g{
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #h{
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+  <h2> Without Flex </h2>
+  <div class="box" id="a">
+      <img src="https://t3.ftcdn.net/jpg/04/35/23/84/360_F_435238484_2PcXKqimpyBLfhIMv0y05BwQV0EscbBU.jpg" alt="">
+      <img src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0MDk2MzYxNjM1OTgwODY2/what-you-should-know-about-owning-a-golden-retriever.jpg" alt="">
+      <img src="https://media.istockphoto.com/photos/siberian-husky-in-the-fog-picture-id1204265029?b=1&k=20&m=1204265029&s=170667a&w=0&h=6lS2581n5vHTycayTOVzV1cTVDOss2ppHkB672DUfXE=" alt="">
+    
+  </div>
+  
+  <h2> With Flex </h2>
+  <div class="box" id="b">
+    <img src="https://t3.ftcdn.net/jpg/04/35/23/84/360_F_435238484_2PcXKqimpyBLfhIMv0y05BwQV0EscbBU.jpg" alt="">
+    <img src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0MDk2MzYxNjM1OTgwODY2/what-you-should-know-about-owning-a-golden-retriever.jpg" alt="">
+    <img src="https://media.istockphoto.com/photos/siberian-husky-in-the-fog-picture-id1204265029?b=1&k=20&m=1204265029&s=170667a&w=0&h=6lS2581n5vHTycayTOVzV1cTVDOss2ppHkB672DUfXE=" alt="">
+    
+  </div>
+  
+  <h2>Flex direction - row </h2>
+  <div class="box" id="c">
+    <img src="https://t3.ftcdn.net/jpg/04/35/23/84/360_F_435238484_2PcXKqimpyBLfhIMv0y05BwQV0EscbBU.jpg" alt="">
+    <img src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0MDk2MzYxNjM1OTgwODY2/what-you-should-know-about-owning-a-golden-retriever.jpg" alt="">
+    <img src="https://media.istockphoto.com/photos/siberian-husky-in-the-fog-picture-id1204265029?b=1&k=20&m=1204265029&s=170667a&w=0&h=6lS2581n5vHTycayTOVzV1cTVDOss2ppHkB672DUfXE=" alt="">
+   
+  </div>
